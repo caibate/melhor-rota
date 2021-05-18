@@ -28,7 +28,7 @@ public class ArquivoCSVTest {
     @Test
     public void deveEscreverCsv_Sucesso(){
         ArquivoCSV arquivoCSV = new ArquivoCSV();
-        String localArquivo = "/home/caiba/IdeaProjects/rota-viagem/routes.csv";
+        String localArquivo = "/home/caiba/IdeaProjects/rota-viagem/rotas.csv";
         boolean gravou = arquivoCSV.escrever(localArquivo, new RotaDTO("GRU","CHI",11));
         assertTrue(gravou);
     }

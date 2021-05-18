@@ -1,7 +1,7 @@
 # Calcular a rota de viagem mais em conta
 
 <!--ts-->
-* [Descrição do projeto](##Descrição do projeto)
+* [Descrição do projeto](##Descrição-do-projeto)
 * [Algoritmo utlizado para resoluçao do problema](##Algoritmo Dijkstra)
 * [Arquitetura](##Arquitetura)
 * [Como executar](##Como Executar)
@@ -13,8 +13,7 @@
 <!--te-->
 
 
-##Descrição do projeto
-Este projeto tem por objeto calcular menor custo entre duas rotas, nao considerando 
+##Descrição-do-projeto Este projeto tem por objeto calcular menor custo entre duas rotas, nao considerando 
 o numero de conexoes somente o custo.
 
 ##Algoritmo Dijkstra

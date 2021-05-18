@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT, args = "--arquivo=/home/caiba/IdeaProjects/rota-viagem/routes.csv")
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT, args = "--arquivo=/home/caiba/IdeaProjects/rota-viagem/rotas.csv")
 public class MelhorRotaControlerTest {
 
     @Autowired
