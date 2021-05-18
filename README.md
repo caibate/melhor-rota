@@ -6,7 +6,7 @@
 * [Arquitetura](##Arquitetura)
 * [Como executar](##Como Executar)
     * [Pré Requisitos](##Pre requisitos)
-    * [Swagger](##Swagger)
+    * [Swagger](#Swagger)
     * [REST](##Iteração REST)
 * [Testes](#Testes)
 * [Consideraçoes Finais](#Consideraçoes Finais)
@@ -68,7 +68,7 @@ Execute o programa passando por parâmetro um caminho válido de um csv contendo
 mvn spring-boot:run -Dspring-boot.run.arguments=--arquivo=<localização do arquivo>
 ```
 
-##Swagger
+#Swagger
 Caso queria visualizar o arquivo de swagger
 ```sh
 http://localhost:8080/swagger-ui.html
