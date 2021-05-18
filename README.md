@@ -1,17 +1,4 @@
-# Calcular a rota de viagem mais em conta
-
-<!--ts-->
-* [Descrição do projeto](##Descrição-do-projeto)
-* [Algoritmo utlizado para resoluçao do problema](##Algoritmo Dijkstra)
-* [Arquitetura](##Arquitetura)
-* [Como executar](##Como Executar)
-    * [Pré Requisitos](##Pre requisitos)
-    * [Swagger](#Swagger)
-    * [REST](##Iteração REST)
-* [Testes](#Testes)
-* [Consideraçoes Finais](#Consideraçoes Finais)
-<!--te-->
-
+#Calcular a rota de viagem mais em conta
 
 ##Descrição-do-projeto Este projeto tem por objeto calcular menor custo entre duas rotas, nao considerando 
 o numero de conexoes somente o custo.
