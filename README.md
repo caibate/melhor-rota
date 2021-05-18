@@ -1,9 +1,9 @@
-#Calcular a rota de viagem mais em conta
+# Calcular a rota de viagem mais em conta
 
-##Descrição-do-projeto Este projeto tem por objeto calcular menor custo entre duas rotas, nao considerando 
+## Descrição-do-projeto Este projeto tem por objeto calcular menor custo entre duas rotas, nao considerando 
 o numero de conexoes somente o custo.
 
-##Algoritmo Dijkstra
+## Algoritmo Dijkstra
 Para resolução técnica deste problema foi utilizado o Algoritmo de Dijkstra
 que objetiva solucionar o caminho mais curto num grafo dirigido com arestas
 de peso não negativo.
@@ -11,7 +11,7 @@ de peso não negativo.
 
 ![algoritmo](https://www.eximiaco.tech/wp-content/uploads/sites/2/2019/06/grafo.jpg)
 
-##Arquitetura
+## Arquitetura
 A arquitetura do projeto levou em cosideração o requisito que deveria ser possivel 
 ter mais de uma forma de iteração com a API (shell e Rest).
 
@@ -40,11 +40,11 @@ O projeto foi escrito em liguagem JAVA por facilidade de sintaxe do autor.
 E codigo escrito ligua portuguesa por se tratar de uma projeto BR, porém é
 um assunto polemico que divide a comunidade.
 ```
-##Pré requisitos
+## Pré requisitos
 - Java 11
 - Maven 3.0.5+
 
-##Como Executar
+## Como Executar
 Após clonar o projeto
 ```sh
 cd rota-viagem
@@ -55,14 +55,14 @@ Execute o programa passando por parâmetro um caminho válido de um csv contendo
 mvn spring-boot:run -Dspring-boot.run.arguments=--arquivo=<localização do arquivo>
 ```
 
-#Swagger
+## Swagger
 Caso queria visualizar o arquivo de swagger
 ```sh
 http://localhost:8080/swagger-ui.html
 ```
 ![swagger](./swagger.png)
 
-##Iteração REST
+## Iteração REST
 
 - Consulta melhor rota
 ```sh
@@ -78,7 +78,7 @@ curl --location --request POST 'http://localhost:8080/v1/rota' \
 "valor": 10
 }'
 ```
-##Testes
+## Testes
 Para criar todos os testes do programa, foram utilizados o Mockito e JUnit.
 ```
 Ficou de TODO, teste de integração (serviços) com REST Assured
@@ -88,6 +88,6 @@ Para executar todos os testes do programa, execute:
 ```sh
 mvn test
 ```
-##Consideraçoes Finais
+## Consideraçoes Finais
 Espero que se divirtam corrigindo está avaliação com mesmo impeto, que me
 dediquei a faze-la. Apesar do pouco tempo que tive!
