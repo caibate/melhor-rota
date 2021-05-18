@@ -1,7 +1,8 @@
 # Calcular a rota de viagem mais em conta
 
-## Descrição-do-projeto Este projeto tem por objeto calcular menor custo entre duas rotas, nao considerando 
-o numero de conexoes somente o custo.
+## Descrição-do-projeto
+Este projeto tem por objeto calcular menor custo entre duas rotas, nao considerando 
+o número de conexões somente o custo.
 
 ## Algoritmo Dijkstra
 Para resolução técnica deste problema foi utilizado o Algoritmo de Dijkstra
@@ -12,14 +13,15 @@ de peso não negativo.
 ![algoritmo](https://www.eximiaco.tech/wp-content/uploads/sites/2/2019/06/grafo.jpg)
 
 ## Arquitetura
-A arquitetura do projeto levou em cosideração o requisito que deveria ser possivel 
-ter mais de uma forma de iteração com a API (shell e Rest).
+A arquitetura do projeto levou em consideração o requisito que deveria ser possivel 
+ter mais de uma forma de iteração com a API (shell e Rest). Abaixo descrevemos as principais 
+camadas .
 
-<b>RotaViagemResource</b> - Onde são expostas as interfaces de serviços REST.
+<b>RotaResource</b> - Onde são expostas as interfaces de serviços REST.
 
-<b>InterfaceUsuario</b> - Camada onde todas iteraçoes com usuario acontece.
+<b>InterfaceUsuario</b> - Camada onde todas iterações com usuário acontece.
 
-<b>MelhorRotaController</b> - Orquestra as requisiçoes da camadas de iteraçao com nossa
+<b>MelhorRotaController</b> - Orquestra as requisições da camadas de iteração com nossa
 camadas especialidas da API (Bussines).
 
 <b>RotaValidacao</b> - Camada que centraliza as validacoes necessarias.
@@ -37,7 +39,7 @@ possuem um papel incomum e especialidado dentro do contexto de negócio.
 ```
 OBSERVAÇÃO
 O projeto foi escrito em liguagem JAVA por facilidade de sintaxe do autor.
-E codigo escrito ligua portuguesa por se tratar de uma projeto BR, porém é
+O codigo foi escrito em ligua portuguesa por se tratar de uma projeto BR, porém é
 um assunto polemico que divide a comunidade.
 ```
 ## Pré requisitos
